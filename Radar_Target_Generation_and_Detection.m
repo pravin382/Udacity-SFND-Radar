@@ -223,21 +223,6 @@ for i =  (Tr + Gr + 1):( m - 2*Tr - 2*Gr)
     end
 end
 
-
-
-
-% *%TODO* :
-% The process above will generate a thresholded block, which is smaller 
-%than the Range Doppler Map as the CUT cannot be located at the edges of
-%matrix. Hence,few cells will not be thresholded. To keep the map size same
-% set those values to 0. 
- 
-
-
-
-
-
-
 doppler_axis = linspace(-100,100,Nd);
 range_axis = linspace(-200,200,Nr/2)*((Nr/2)/400);
 
