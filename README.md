@@ -91,3 +91,8 @@ end
 
 ### Reference
  [Udacity_Nanodegree_Sensor_fusion](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313)
+ 
+ ## 2. Sensor Fusion with Radar
+![alt text](https://github.com/pravin382/Udacity-SFND-Radar/blob/master/pics/object_tracking_radar.png)
+### Reference
+ [Matlab_sensor_fusion_and_tracking](https://de.mathworks.com/help/driving/examples/sensor-fusion-using-synthetic-radar-and-vision-data.html)
