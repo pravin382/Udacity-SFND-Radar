@@ -320,5 +320,6 @@ function updateBEP(BEP, egoCar, detections, confirmedTracks, psel, vsel)
     labels = cellfun(@num2str, trackIDs, 'UniformOutput', false);
     [tracksPos, tracksCov] = getTrackPositions(confirmedTracks, psel);
     tracksVel = getTrackVelocities(confirmedTracks, vsel);
-    plotTrack(findPlotter(BEP,'DisplayName','track'), tracksPos, tracksVel, tracksCov, labels);
+    %plotTrack(findPlotter(BEP,'DisplayName','track'), tracksPos, tracksVel, tracksCov, labels);
 end
+
